@@ -1,0 +1,101 @@
+================================================================================
+                                                                              
+   ██████╗ ██████╗ ███████╗███╗   ██╗    ███████╗ ██████╗ ██╗   ██╗██████╗  
+  ██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██╔════╝██╔═══██╗██║   ██║██╔══██╗ 
+  ██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ███████╗██║   ██║██║   ██║██████╔╝ 
+  ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ╚════██║██║   ██║██║   ██║██╔══██╗ 
+  ╚██████╔╝██║     ███████╗██║ ╚████║    ███████║╚██████╔╝╚██████╔╝██║  ██║ 
+   ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝    ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ 
+                                                                              
+              MONITORING STACK WITH OLLAMA & OPEN WEBUI                      
+                                                                              
+================================================================================
+
+🎉 Welcome to Your Complete AI & Monitoring Stack!
+
+================================================================================
+
+📦 WHAT'S INCLUDED:
+
+  🤖 AI Services:
+     • Ollama - Run LLMs locally (Llama, Mistral, CodeLlama, etc.)
+     • Open WebUI - Beautiful chat interface for AI
+
+  📊 Monitoring Stack:
+     • Prometheus - Metrics collection & storage
+     • Grafana - Beautiful dashboards & visualization
+     • Node Exporter - Server metrics (CPU, RAM, Disk, Network)
+     • cAdvisor - Container metrics & monitoring
+
+================================================================================
+
+🚀 QUICK START (5 MINUTES):
+
+  1. Start all services:
+     $ ./manage.sh start
+
+  2. Download AI model:
+     $ ./manage.sh download-model llama2
+
+  3. Access applications:
+     • Chat with AI:  http://localhost:3000
+     • Monitoring:    http://localhost:3001  (admin/admin)
+
+================================================================================
+
+🌐 ALL ACCESS URLS:
+
+  Service          URL                              Credentials
+  -------------------------------------------------------------------------
+  Open WebUI       http://localhost:3000            Create new account
+  Grafana          http://localhost:3001            admin / admin
+  Prometheus       http://localhost:9090            -
+  cAdvisor         http://localhost:8081            -
+  Node Exporter    http://localhost:9100/metrics    -
+
+================================================================================
+
+💡 ESSENTIAL COMMANDS:
+
+  ./manage.sh start          # Start all services
+  ./manage.sh status         # Check health & status
+  ./manage.sh stats          # View resource usage
+  ./manage.sh logs           # View logs
+  ./manage.sh help           # Show all commands
+
+================================================================================
+
+📚 DOCUMENTATION:
+
+  New User?        → START_HERE.md or QUICK_START.md
+  Need Commands?   → CHEATSHEET.md
+  Have Problems?   → NOTES.md
+  Want Details?    → README.md
+  All Docs?        → TABLE_OF_CONTENTS.md
+
+================================================================================
+
+✨ FEATURES:
+
+  ✓ Run AI models locally (no cloud needed)
+  ✓ Complete server & container monitoring
+  ✓ Real-time metrics & dashboards
+  ✓ Easy management with helper script
+  ✓ Production-ready architecture
+  ✓ Comprehensive documentation
+  ✓ Open source & free to use
+
+================================================================================
+
+🎯 READY TO START?
+
+  Run this command:
+  $ ./manage.sh start
+
+  Then open: http://localhost:3000
+
+================================================================================
+
+📄 License: MIT | 🤝 Contributions Welcome | ⭐ Star on GitHub
+
+Happy Monitoring! 🎉
